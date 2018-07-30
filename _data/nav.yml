@@ -2,13 +2,11 @@
   url: /
 - title: About
   url: /about/
-- title: Projects
-  url: /projects/
-- title: Publications
-  url: /publications/
-- title: CV
-  url: /cv/
-- title: Blog
-  url: /blog/
+- title: Target Capture
+  url: /target_capture/
+- title: Pipeline
+  url: /pipeline/
+- title: Annotation
+  url: /annotation/
 - title: Contact
   url: /contact/
