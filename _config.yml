@@ -1,5 +1,5 @@
 # Site settings
-title:
+title: CIViC PM
 email:
 author:
 description:
@@ -11,4 +11,4 @@ sass:
   sass_dir: assets
 
 # favicons
-favicon-32x32: Asset_5.png
+favicon-32x32: favicon_32x32.png
