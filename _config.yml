@@ -9,3 +9,6 @@ url:
 permalink: :title/
 sass:
   sass_dir: assets
+
+# favicons
+favicon-32x32: Asset_5.png
