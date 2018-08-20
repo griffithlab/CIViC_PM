@@ -3,16 +3,16 @@
 <div class="container-fluid bg-primary text-secondary">
 
   <!--- Row for Chevron --->
-  <div class="d-flex justify-content-end" style="background-color:#5f6d56">
-    <i class="fas fa-chevron-up"></i>
+  <div class="d-flex justify-content-end toTop" style="background-color:#5f6d56">
+    <a href="#"><i class="fas fa-chevron-up"></i></a>
   </div>
 
   <!--- Row for social items --->
-  <div class="d-flex justify-content-center" style="background-color:#2f6556">
+  <div class="d-flex justify-content-center p-4" style="background-color:#2f6556">
     {% include social.html %}
   </div>
 
-  <!--- Row for social items --->
+  <!--- Row for footer text items --->
   <div class="d-flex justify-content-around align-self-baseline" style="background-color:#2f6556">
     <div class="d-flex flex-column flex-fill col-md-4">
       <h3 class="text-center">About</h3>
@@ -41,14 +41,14 @@
     </div>
   </div>
 
-  <!--- sub-footer slogan --->
+  <!--- row for sub-footer slogan --->
   <div class="d-flex justify-content-center" style="background-color:#3443a6">
     <div>
       <h3>{{ site.slogan }}</h3>
     </div>
   </div>
 
-  <!--- sub-footer additional content --->
+  <!--- row for sub-footer additional content --->
   <div class="d-flex justify-content-center" style="background-color:#3463a4">
     <div>
       <i class="fab fa-creative-commons"></i>
@@ -65,3 +65,4 @@
 <script src="/assets/jquery/dist/jquery.min.js"></script>
 <script src="/assets/popper.js/dist/popper.min.js"></script>
 <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/assets/scripts/toTop.js"></script>
