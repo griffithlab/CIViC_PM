@@ -1,38 +1,34 @@
 <!---- Footer ---->
-<footer class="footer">
-<div class="container-fluid bg-primary text-secondary">
-
-  <!--- Row for Chevron --->
-  <div class="d-flex justify-content-end toTop" style="background-color:#5f6d56">
+<footer class="footer" id="footer-content">
+  <div class="container-fluid" id="footer">
+  <!--- Row for chevron navigation to top --->
+  <div class="row justify-content-end toTop pr-2">
     <a href="#"><i class="fas fa-chevron-up"></i></a>
   </div>
 
   <!--- Row for social items --->
-  <div class="d-flex justify-content-center p-4" style="background-color:#2f6556">
+  <div class="row justify-content-center p-2">
     {% include social.html %}
   </div>
 
   <!--- Row for footer text items --->
-  <div class="d-flex justify-content-around align-self-baseline" style="background-color:#2f6556">
-    <div class="d-flex flex-column flex-fill col-md-4">
+  <div class="row justify-content-around">
+    <div class="col-md-4 align-self-baseline">
       <h3 class="text-center">About</h3>
-      <hr>
       <p class="text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
     </div>
-    <div class="d-flex flex-column flex-fill col-md-4"">
+    <div class="col-md-4 align-self-baseline">
       <h3 class="text-center">Getting Started</h3>
-      <hr>
       <p class="text-center">CAP-oma</p>
       <p class="text-center">CAP-emia</p>
       <p class="text-center">CAP-ex</p>
     </div>
-    <div class="d-flex flex-column flex-fill col-md-4"">
+    <div class="col-md-4 align-self-baseline">
       <h3 class="text-center">Contact</h3>
-      <hr>
       <p class="text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -41,28 +37,26 @@
     </div>
   </div>
 
-  <!--- row for sub-footer slogan --->
-  <div class="d-flex justify-content-center" style="background-color:#3443a6">
-    <div>
-      <h3>{{ site.slogan }}</h3>
+  <!--- row for sub-footer --->
+  <div class="row justify-content-between" id=sub-footer>
+    <div class="align-self-center">
+      <h3 class="pl-4 text-center">{{ site.slogan }}</h3>
     </div>
-  </div>
-
-  <!--- row for sub-footer additional content --->
-  <div class="d-flex justify-content-center" style="background-color:#3463a4">
-    <div>
+    <div class="align-self-center pr-4">
       <i class="fab fa-creative-commons"></i>
+      <span>
+        Griffith Lab 2018
+      </span>
     </div>
-    <p>
-      Griffithlab
-    </p>
   </div>
 </div>
 </footer>
 
-<!-- JS -->
+<!-- Bootstrap Related Scripts -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 <script src="/assets/jquery/dist/jquery.min.js"></script>
 <script src="/assets/popper.js/dist/popper.min.js"></script>
 <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- Custom Scripts -->
 <script src="/assets/scripts/toTop.js"></script>
