@@ -6,6 +6,13 @@
   url: /target_capture/
 - title: Pipeline
   url: /pipeline/
+  dropdown:
+  - title: CAP-oma
+  - url: /pipeline/cap_oma/
+  - title: CAP-emia
+  - url: /pipeline/cap_emia/
+  - title: CAP-ex
+  - url: /pipeline/cap_ex/
 - title: Annotation
   url: /annotation/
 - title: Contact
